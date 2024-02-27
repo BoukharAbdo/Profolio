@@ -21,10 +21,10 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/ds.png";
 import services_logo3 from "./assets/images/Services/dataAnalys.png";
 
-import project1 from "./assets/images/projects/Project2.png";
-import project2 from "./assets/images/projects/Project2.png";
-import project3 from "./assets/images/projects/Project3.png";
-import person_project from "./assets/images/projects/person_project1.png";
+import project1 from "src/assets/images/Projects/Project1.png";
+import project2 from "src/assets/images/projects/Project2.png";
+import project3 from "src/assets/images/projects/Project3.png";
+import person_project from "src/assets/images/projects/person_project1.png";
 
 import avatar1 from "./assets/images/Testimonials/client2.png";
 import avatar2 from "./assets/images/Testimonials/client1.png";
