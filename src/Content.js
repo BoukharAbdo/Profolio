@@ -68,7 +68,7 @@ export const content = {
     title1: "Web Developer & ",
     title2: "data scientist &  ",
     title3: "data analyst ",
-    firstName: "ABDE LMALAK",
+    firstName: "ABDELMALAK",
     LastName: "BOUKHAR",
     btnText: "Engagez-moi",
     image: Hero_person,
