@@ -31,9 +31,6 @@ import avatar2 from "./assets/images/Testimonials/client1.png";
 import avatar3 from "./assets/images/Testimonials/client3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
-
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
@@ -94,52 +91,62 @@ export const content = {
         name: "Tableau",
         para: "Création de tableaux de bord interactifs",
         logo: tableau,
+        projectsList: ["Création de tableaux de bord interactifs sur le jeu de données Super Store.", "Création de tableaux de bord interactifs sur le jeu de données Food Balance.", "Analyse des ventes internationales."]
       },
       
       {
         name: "Power BI",
         para: "Création de tableaux de bord interactifs",
         logo: bi,
+        projectsList: ["Création de tableaux de bord interactifs sur le jeu de données Super Store.", "Création de tableaux de bord interactifs sur le jeu de données Food Balance.", "Analyse des ventes internationales." ]
       },
       {
         name: "Qlik",
         para: "Création de tableaux de bord interactifs",
         logo: Qlik,
+        projectsList: ["Création de tableaux de bord interactifs sur le jeu de données Super Store.", "Création de tableaux de bord interactifs sur le jeu de données Food Balance.", "Analyse des ventes internationales." ]
       },
       {
         name: "Python",
         para: "Programmation Python : Nettoyage et structuration des données",
         logo: python,
+        projectsList: ["Explorer toutes les notions de programmation Python en relation avec la science des données et le Big Data, ainsi que le développement web", "Nettoyage des données ", "Collecte des données avec le web scraping", "Visualisation des données avec des bibliothèques Python telles que Dash et Streamlit", "Analyse prédictive." ]
       },
       {
         name: "Machine learning ",
         para: "Création des modèles de machine learning",
         logo: ML,
+        projectsList: ["Voir l'apprentissage supervisé (régression, classification)", "Voir l'apprentissage non supervisé (clustering, réduction de dimensions)."]
       },
       {
         name: "React js & react native",
         para: "Création de l'interface frontend pour les applications web et mobiles",
         logo: reactjs,
+        projectsList: ["Création de ce portfolio.", "Création d'une application web et mobile pour la gestion de la classification des déchets." ,"Création d'une application de contrôle d'accès basée sur l'IoT."]
       },
       {
-        name: "java EE ",
+        name: "Java EE & Spring boot",
         para: "Création du backend des applications",
         logo: javaee,
+        projectsList: ["Création d'une application web ecommerce pour la gestion des ventes et achats de pièces et accessoires automobiles avec Java EE.", "Création d'une application ecommerce pour la vente de téléphones portables avec Java EE." ,"Création d'un site web pour la gestion des salles de sport avec Spring Boot.","Création d'une application ecommerce pour la vente de bougies avec Spring Boot."]
       },
       {
         name: "Framework Django",
         para: "Création du backend des applications",
         logo: django,
+        projectsList: ["Création d'un site web pour la prédiction des salaires basée sur un modèle de régression linéaire déjà entraîné.","Création d'un backend pour une application de classification des déchets avec un frontend (React Native et React.js)."]
       }, 
       {
         name: "Node js",
         para: "Création du backend des applications",
         logo: nodejs,
+        projectsList: ["Création d'un site simple de gestion CRUD pour les étudiants."]
       },
       {
-        name: "Sql & Mongo db",
+        name: "Stockage des données",
         para: "Stockage des données",
         logo: sql,
+        projectsList: ["SQL","MySQL","PostgreSQL","NoSQL (MongoDB)"]
       },
       
      
@@ -152,7 +159,7 @@ export const content = {
     service_content: [
       {
         title: "Developpement Web",
-        para: "Conception et création d'applications web et mobiles avec les nouvelles technologies ",
+        para: "Conception et création d'applications web et mobiles en utilisant les nouvelles technologies, ainsi que les services web.",
         logo: services_logo1,
       },
       {
