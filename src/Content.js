@@ -75,7 +75,7 @@ export const content = {
     hero_content: [
       {
         count: "1+",
-        text: "À la recherche d'un stage PFE en data analyst, data scientist ou développement web",
+        text: "À la recherche d'un emploi ou de projets freelance en Data Analysis, Data Science ou Développement Web",
       },
       {
         count: "20+",
