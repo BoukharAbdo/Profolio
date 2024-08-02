@@ -228,7 +228,7 @@ export const content = {
     subtitle: "POUR VOS PROJETS",
     image1: Hero_person,
     
-    para: "Étudiant en deuxième année de master en science des données et big data, je suis à la recherche d'un stage de fin d'études en data ou en développement",
+    para: "En tant que spécialiste en science des données et big data, je me concentre sur la conception, la réalisation, le déploiement, et le développement full-stack de sites et d'applications. Mon objectif est de mettre en pratique mes compétences pour améliorer et optimiser les processus à chaque étape, de la conception initiale à la mise en production.",
     btnText: "Embauchez-moi",
   },
   Contact: {
