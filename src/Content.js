@@ -75,7 +75,7 @@ export const content = {
     hero_content: [
       {
         count: "1+",
-        text: "À la recherche d'un emploi ou de projets freelance en Data Analysis, Data Science ou Développement Web",
+        text: "À la recherche d'un stage de préembauche, ainsi que d'opportunités d'emploi et de projets freelance dans les domaines de l'analyse de données, de la science des données ou du développement web",
       },
       {
         count: "20+",
