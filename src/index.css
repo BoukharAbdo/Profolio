@@ -57,7 +57,7 @@
      border-dark_primary rounded-br-3xl font-medium;
   }
   .title {
-    @apply md:text-3xl text-2xl;
+    @apply md:text-xl text-lg;
   }
   .subtitle {
     @apply text-gray;

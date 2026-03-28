@@ -1,11 +1,11 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
 
-import tableau from "./assets/images/Skills/tableau.png";
+import tableau from "./assets/images/Skills/Sage-X3-SQLServer-Integration.png";
 import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
+import Admin from "./assets/images/Skills/Admin.png";
 import python from "./assets/images/Skills/python.png";
-import Qlik from "./assets/images/Skills/Qlik.png";
+import dataAnalytics from "./assets/images/Skills/dataAnalytics.jpg";
 import ML from "./assets/images/Skills/ML.png";
 import javaee from "./assets/images/Skills/javaee.png";
 import django from "./assets/images/Skills/django.jpg";
@@ -13,13 +13,17 @@ import sql from "./assets/images/Skills/bd.jpg";
 import bi from "./assets/images/Skills/bi.png";
 
 
+import experience1 from "./assets/images/Experience/MedMilk.jpg";
+import experience2 from "./assets/images/Experience/lamalif.jpg";
+import experience3 from "./assets/images/Experience/InDataBee.jpg";
 
 
+import Formation1 from "./assets/images/Formation/FSBM.png";
 
 
-import services_logo1 from "./assets/images/Services/logo1.png";
-import services_logo2 from "./assets/images/Services/ds.png";
-import services_logo3 from "./assets/images/Services/dataAnalys.png";
+import services_logo1 from "./assets/images/Services/dataAnalys.png";
+import services_logo2 from "./assets/images/Services/ERP.png";
+import services_logo3 from "./assets/images/Services/dev.png";
 
 import project1 from "./assets/images/Projects_image/Project1.png";
 import project2 from "./assets/images/Projects_image/Project2.png";
@@ -33,7 +37,7 @@ import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
-import { MdArrowForward, MdCall } from "react-icons/md";
+import { MdArrowForward, MdCall ,MdWorkOutline,MdSchool} from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { FaLinkedin,FaGithub } from "react-icons/fa";
@@ -46,6 +50,14 @@ export const content = {
     {
       link: "#home",
       icon: TbSmartHome,
+    },
+    {
+    link: "#experience",
+    icon: MdWorkOutline,
+    },
+    {
+      link: "#formation",
+      icon: MdSchool,
     },
     {
       link: "#skills",
@@ -65,9 +77,9 @@ export const content = {
     },
   ],
   hero: {
-    title1: "Web Developer & ",
-    title2: "data scientist &  ",
-    title3: "data analyst ",
+    title1: "IT Project Manager & ",
+    title2: "Data Analyst &  ",
+    title3: "Full-Stack Developer ",
     firstName: "ABDELMALAK",
     LastName: "BOUKHAR",
     btnText: "Engagez-moi",
@@ -75,8 +87,12 @@ export const content = {
     hero_content: [
       {
         count: "1+",
-        text: "Je recherche un stage de préembauche, des opportunités d'emploi et des projets freelance en analyse de données, science des données et développement web.",
-      },
+       text: `Je suis actuellement à la recherche d’un emploi en tant que Chef de Projet IT junior, spécialisé en analyse de données, Business Intelligence et développement web.
+
+Je maîtrise les bases de données (SQL, SQL Server) et l’ERP Sage X3 v12 en tant qu’administrateur. J’interviens également dans l’administration des serveurs (installation, configuration, sauvegarde et restauration), ainsi que dans le déploiement d’applications.
+
+Je dispose également d’une expérience dans les projets BI, incluant la rédaction de cahiers des charges, la définition des KPI métiers et le déploiement de solutions en environnement local.`,
+},
       {
         count: "20+",
         text: "Projets sur lesquels j'ai travaillé dans ma carrière",
@@ -84,96 +100,132 @@ export const content = {
     ],
   },
   skills: {
-    title: "Compétences",
-    subtitle: "MES COMPÉTENCES PRINCIPALES",
-    skills_content: [
-      {
-        name: "Tableau",
-        para: "Création de tableaux de bord interactifs",
-        logo: tableau,
-        projectsList: ["Création de tableaux de bord interactifs sur le jeu de données Super Store.", "Création de tableaux de bord interactifs sur le jeu de données Food Balance.", "Analyse des ventes internationales."]
-      },
-      
-      {
-        name: "Power BI",
-        para: "Création de tableaux de bord interactifs",
-        logo: bi,
-        projectsList: ["Création de tableaux de bord interactifs sur le jeu de données Super Store.", "Création de tableaux de bord interactifs sur le jeu de données Food Balance.", "Analyse des ventes internationales." ]
-      },
-      {
-        name: "Qlik",
-        para: "Création de tableaux de bord interactifs",
-        logo: Qlik,
-        projectsList: ["Création de tableaux de bord interactifs sur le jeu de données Super Store.", "Création de tableaux de bord interactifs sur le jeu de données Food Balance.", "Analyse des ventes internationales." ]
-      },
-      {
-        name: "Python",
-        para: "Programmation Python : Nettoyage et structuration des données",
-        logo: python,
-        projectsList: ["Explorer toutes les notions de programmation Python en relation avec la science des données et le Big Data, ainsi que le développement web", "Nettoyage des données ", "Collecte des données avec le web scraping", "Visualisation des données avec des bibliothèques Python telles que Dash et Streamlit", "Analyse prédictive." ]
-      },
-      {
-        name: "Machine learning ",
-        para: "Création des modèles de machine learning",
-        logo: ML,
-        projectsList: ["Voir l'apprentissage supervisé (régression, classification)", "Voir l'apprentissage non supervisé (clustering, réduction de dimensions)."]
-      },
-      {
-        name: "React js & react native",
-        para: "Création de l'interface frontend pour les applications web et mobiles",
-        logo: reactjs,
-        projectsList: ["Création de ce portfolio.", "Création d'une application web et mobile pour la gestion de la classification des déchets." ,"Création d'une application de contrôle d'accès basée sur l'IoT."]
-      },
-      {
-        name: "Java EE & Spring boot",
-        para: "Création du backend des applications",
-        logo: javaee,
-        projectsList: ["Création d'une application web ecommerce pour la gestion des ventes et achats de pièces et accessoires automobiles avec Java EE.", "Création d'une application ecommerce pour la vente de téléphones portables avec Java EE." ,"Création d'un site web pour la gestion des salles de sport avec Spring Boot.","Création d'une application ecommerce pour la vente de bougies avec Spring Boot."]
-      },
-      {
-        name: "Framework Django",
-        para: "Création du backend des applications",
-        logo: django,
-        projectsList: ["Création d'un site web pour la prédiction des salaires basée sur un modèle de régression linéaire déjà entraîné.","Création d'un backend pour une application de classification des déchets avec un frontend (React Native et React.js)."]
-      }, 
-      {
-        name: "Node js",
-        para: "Création du backend des applications",
-        logo: nodejs,
-        projectsList: ["Création d'un site simple de gestion CRUD pour les étudiants."]
-      },
-      {
-        name: "Stockage des données",
-        para: "Stockage des données",
-        logo: sql,
-        projectsList: ["SQL","MySQL","PostgreSQL","NoSQL (MongoDB)"]
-      },
-      
-     
-    ],
-    icon: MdArrowForward,
-  },
-  services: {
-    title: "Services",
-    subtitle: "CE QUE JE PROPOSE",
-    service_content: [
-      {
-        title: "Developpement Web",
-        para: "Conception et création d'applications web et mobiles en utilisant les nouvelles technologies, ainsi que les services web.",
-        logo: services_logo1,
-      },
-      {
-        title: "data science",
-        para: "Web scraping, nettoyage des données, et création de bases pour le machine learning et le deep learning",
-        logo: services_logo2,
-      },
-      {
-        title: "data analyst",
-        para: "Création de tableaux de bord interactifs avec Tableau, Power BI, Qlik, des bibliothèques de visualisation Python, D3.js etc ..., ainsi que des outils ETL",
-        logo: services_logo3,
-      },
-    ],
-  },
+  title: "Compétences",
+  subtitle: "MES COMPÉTENCES PRINCIPALES",
+  skills_content: [
+    {
+      name: "Power BI",
+      para: "Analyse de données et création de tableaux de bord interactifs (KPI métiers)",
+      logo: bi,
+      projectsList: [
+        "Création de dashboards de suivi des ventes (CA, marges, volumes).",
+        "Analyse des performances par secteur et tournée.",
+        "Suivi des indicateurs métiers (KPI) pour la prise de décision."
+      ]
+    },
+
+    {
+      name: "SQL Server & Sage X3",
+      para: "Gestion et exploitation des données ERP Sage X3 v12 (requêtes, reporting, optimisation)",
+      logo: tableau,
+      projectsList: [
+        "Extraction et analyse des données de ventes depuis Sage X3.",
+        "Création de requêtes SQL pour le suivi des marges et stocks.",
+        "Optimisation des requêtes pour améliorer les performances BI."
+      ]
+    },
+
+    {
+      name: "Excel & Data Analysis",
+      para: "Analyse avancée des données et automatisation des rapports",
+      logo: dataAnalytics,
+      projectsList: [
+        "Création de tableaux de bord Excel (TCD, Power Query).",
+        "Automatisation des rapports avec formules avancées.",
+        "Analyse des données commerciales et financières."
+      ]
+    },
+
+    {
+      name: "Python",
+      para: "Nettoyage, transformation et analyse des données",
+      logo: python,
+      projectsList: [
+        "Nettoyage et préparation des données (Pandas).",
+        "Analyse exploratoire des données (EDA).",
+        "Visualisation avec Matplotlib et Streamlit."
+      ]
+    },
+
+    {
+      name: "Business Intelligence",
+      para: "Conception de solutions BI : KPI, cahier des charges, déploiement",
+      logo: ML,
+      projectsList: [
+        "Recueil des besoins métiers.",
+        "Définition des KPI et indicateurs de performance.",
+        "Déploiement de solutions BI en environnement local."
+      ]
+    },
+
+    {
+      name: "React JS",
+      para: "Développement d’interfaces web modernes",
+      logo: reactjs,
+      projectsList: [
+        "Création de ce portfolio.",
+        "Développement d’interfaces dynamiques avec React.",
+        "Intégration frontend avec API backend."
+      ]
+    },
+
+    {
+      name: "Django",
+      para: "Développement backend et déploiement d’applications",
+      logo: django,
+      projectsList: [
+        "Développement d’API backend avec Django.",
+        "Gestion des bases de données et authentification.",
+        "Déploiement d’applications web."
+      ]
+    },
+
+    {
+      name: "Administration Systèmes",
+      para: "Gestion des serveurs, sauvegarde et restauration",
+      logo: Admin,
+      projectsList: [
+        "Installation et configuration des serveurs.",
+        "Gestion des sauvegardes et restauration (Veeam).",
+        "Déploiement d’applications en environnement local."
+      ]
+    },
+
+    {
+      name: "Bases de données",
+      para: "Conception et gestion des bases de données",
+      logo: sql,
+      projectsList: [
+        "SQL Server",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB (NoSQL)"
+      ]
+    }
+  ],
+  icon: MdArrowForward,
+},
+ services: {
+  title: "Services",
+  subtitle: "CE QUE JE PROPOSE",
+  service_content: [
+    {
+      title: "Business Intelligence & Data Analysis",
+      para: "Conception de tableaux de bord interactifs (Power BI), analyse des données et définition des KPI métiers pour aider à la prise de décision.",
+      logo: services_logo1,
+    },
+    {
+      title: "Gestion des données & ERP Sage X3",
+      para: "Extraction, traitement et analyse des données depuis ERP Sage X3 v12 (SQL Server), optimisation des requêtes et reporting avancé.",
+      logo: services_logo2,
+    },
+    {
+      title: "Développement Web & Déploiement",
+      para: "Développement d’applications web (React, Django), déploiement en local et gestion des serveurs (installation, configuration, sauvegarde).",
+      logo: services_logo3,
+    },
+  ],
+},
   Projects: {
     title: "Projets",
     subtitle: "Mes créations",
@@ -228,7 +280,7 @@ export const content = {
     subtitle: "POUR VOS PROJETS",
     image1: Hero_person,
     
-    para: "En tant que spécialiste en science des données et big data, je me concentre sur la conception, la réalisation, le déploiement, et le développement full-stack de sites et d'applications. Mon objectif est de mettre en pratique mes compétences pour améliorer et optimiser les processus à chaque étape, de la conception initiale à la mise en production.",
+    para: `En tant que Chef de Projet IT junior, spécialisé en analyse de données et Business Intelligence, je me concentre sur la conception, le développement et le déploiement de solutions informatiques et d’applications web. Mon objectif est de valoriser les données à travers des tableaux de bord pertinents (KPI métiers) et d’optimiser les processus métiers, notamment via l’exploitation des données ERP Sage X3, de la conception jusqu’à la mise en production.`,
     btnText: "Embauchez-moi",
   },
   Contact: {
@@ -265,4 +317,92 @@ export const content = {
   Footer: {
     text: "abde lmalak  © boukhar 2024",
   },
+ experience: {
+  title: "Expérience",
+  subtitle: "MON PARCOURS PROFESSIONNEL",
+  exp_content: [
+    {
+      role: "Chef de Projet IT",
+      company: "MedMilk - Albane - Groupe Anouar Invest",
+      contract: "Temps plein",
+      date: "nov. 2024 - aujourd’hui · 1 an 5 mois",
+      location: "Marrakech-Safi, Maroc · Sur site",
+      logo: experience1,
+      desc1:
+        "En tant que Chef de Projet IT chez MedMilk, j’interviens dans la gestion, la coordination et l’optimisation des projets informatiques. Mon expertise en analyse de données, Business Intelligence et systèmes d’information me permet de transformer les données en leviers stratégiques pour améliorer les processus internes et soutenir la prise de décision.",
+      desc2:
+        "J’ai contribué à plusieurs projets liés à la production laitière, à la collecte du lait, à la logistique et au reporting métier, en renforçant la performance opérationnelle et la fiabilité des flux métiers.",
+      responsibilities: [
+        "Piloter et superviser les projets IT en lien avec les besoins métiers.",
+        "Concevoir et développer des tableaux de bord et rapports décisionnels avec Power BI.",
+        "Administrer et optimiser les bases de données SQL Server et l’ERP Sage X3.",
+        "Assurer le déploiement, le suivi et l’amélioration continue des solutions BI et applications internes.",
+        "Collaborer avec les équipes métiers pour définir les KPI et automatiser le reporting."
+      ]
+    },
+
+    {
+      role: "Ingénieur Data Science et Solutions Web Industrielles",
+      company: "LAMALIF GROUP",
+      contract: "Stage",
+      date: "mars 2024 - août 2024 · 6 mois",
+      location: "Marrakech-Safi, Maroc · Sur site",
+      logo: experience2,
+      desc1:
+        "Développement et déploiement d’une application web dédiée à la collecte et au suivi en temps réel des données de production industrielle.",
+      desc2:
+        "Conception de tableaux de bord avec Tableau et Power BI, intégrant des visualisations Python pour l’analyse des indicateurs de performance. Mise en œuvre de techniques de Machine Learning et Deep Learning pour la classification d’images de pièces conformes et non conformes.",
+      responsibilities: [
+        "Développer une application web pour la collecte des données de production.",
+        "Concevoir des tableaux de bord de suivi et d’analyse des performances.",
+        "Comparer les performances entre postes, équipes et opérateurs.",
+        "Exploiter Python pour le traitement, l’analyse et la visualisation des données.",
+        "Appliquer des modèles de Machine Learning et Deep Learning pour la classification d’images."
+      ]
+    },
+
+    {
+      role: "Ingénieur Full Stack",
+      company: "In Data Bee",
+      contract: "Stage",
+      date: "févr. 2022 - juil. 2022 · 6 mois",
+      location: "Casablanca-Settat, Maroc · Sur site",
+      logo: experience3,
+      desc1:
+        "Conception et réalisation d’une application e-commerce pour la gestion des ventes et des achats de pièces et accessoires automobiles.",
+      desc2:
+        "Développement de la solution avec Java EE pour le backend, React.js pour le frontend et MySQL pour la base de données, avec une attention particulière portée à la performance et à l’expérience utilisateur.",
+      responsibilities: [
+        "Concevoir et développer une application web e-commerce complète.",
+        "Développer le backend avec Java EE.",
+        "Créer l’interface utilisateur avec React.js.",
+        "Mettre en place et gérer la base de données MySQL.",
+        "Améliorer les performances et l’ergonomie de l’application avec Eclipse et VS Code."
+      ]
+    }
+  ]
+},
+formation: {
+  title: "Formation",
+  subtitle: "MON PARCOURS ACADÉMIQUE",
+
+  formation_content: [
+    {
+      school: "Faculté des Sciences Ben M'sik",
+      diploma: "Master 2 (M2) – Data Science & Big Data",
+      date: "sept. 2022 – juin 2024",
+      desc: "Je suis diplômé en Master Data Science & Big Data. Passionné par l’analyse de données, j’ai acquis une solide expérience en programmation, en visualisation de données et en machine learning pour résoudre des problématiques complexes.",
+      skills: "Java, Visualisation des données (Tableau, Python : Pandas, Matplotlib, Seaborn)",
+      logo: Formation1,
+    },
+    {
+      school: "Faculté des Sciences Ben M'sik",
+      diploma: "Licence – Data Modeling / Data Warehousing & Database Administration",
+      date: "2019 – 2022",
+      desc: "Formation en informatique avec spécialisation en bases de données, développement web et systèmes d’information. Acquisition de compétences en conception d’applications et résolution de problèmes techniques.",
+      skills: "SQL, Data Warehouse, Tableau de bord, Administration des bases de données",
+      logo: Formation1,
+    },
+  ],
+},
 };
