@@ -8,6 +8,7 @@ import Service from "./components/Services";
 import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import Hireme from "./components/Hireme";
+import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import { useEffect } from "react";
 // Animation package
@@ -34,10 +35,7 @@ const App = () => {
       <Testimonials />
       <Hireme />
       <Contact />
-      <footer className="p-3 text-center">
-        <h6 className="mb-3">BOUKHAR ABDE LMALAK</h6>
-        <p>Abde lmalak boukhar  © 2024</p>
-      </footer>
+      <Footer></Footer>
     </div>
   );
 };

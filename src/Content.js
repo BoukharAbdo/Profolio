@@ -315,9 +315,29 @@ Je dispose également d’une expérience dans les projets BI, incluant la réda
     ],
   },
   Footer: {
-    text: "abde lmalak  © boukhar 2024",
-  },
- experience: {
+  name: "Abde Lmalak Boukhar",
+  role: "Data Analyst • BI Developer • Power BI • SQL Server • Sage X3",
+  description:
+    "Passionné par la data, la Business Intelligence et les systèmes d'information. Je transforme les données en décisions stratégiques.",
+  social: [
+    {
+      name: "LinkedIn",
+      icon: FaLinkedin,
+      link: "https://www.linkedin.com/in/abde-lmalak-boukhar-5a741b249/",
+    },
+    {
+      name: "GitHub",
+      icon: FaGithub,
+      link: "https://github.com/BoukharAbdo",
+    },
+    {
+      name: "Email",
+      icon: GrMail,
+      link: "mailto:boukhar.abdelmalak.officiel@gmail.com",
+    },
+  ],
+},
+experience: {
   title: "Expérience",
   subtitle: "MON PARCOURS PROFESSIONNEL",
   exp_content: [
@@ -325,7 +345,8 @@ Je dispose également d’une expérience dans les projets BI, incluant la réda
       role: "Chef de Projet IT",
       company: "MedMilk - Albane - Groupe Anouar Invest",
       contract: "Temps plein",
-      date: "nov. 2024 - aujourd’hui · 1 an 5 mois",
+      startDate: "2024-11-01",
+      endDate: null,
       location: "Marrakech-Safi, Maroc · Sur site",
       logo: experience1,
       desc1:
@@ -345,7 +366,8 @@ Je dispose également d’une expérience dans les projets BI, incluant la réda
       role: "Ingénieur Data Science et Solutions Web Industrielles",
       company: "LAMALIF GROUP",
       contract: "Stage",
-      date: "mars 2024 - août 2024 · 6 mois",
+      startDate: "2024-03-01",
+      endDate: "2024-08-31",
       location: "Marrakech-Safi, Maroc · Sur site",
       logo: experience2,
       desc1:
@@ -365,7 +387,8 @@ Je dispose également d’une expérience dans les projets BI, incluant la réda
       role: "Ingénieur Full Stack",
       company: "In Data Bee",
       contract: "Stage",
-      date: "févr. 2022 - juil. 2022 · 6 mois",
+      startDate: "2022-02-01",
+      endDate: "2022-07-31",
       location: "Casablanca-Settat, Maroc · Sur site",
       logo: experience3,
       desc1:
