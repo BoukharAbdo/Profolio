@@ -1,71 +1,62 @@
 import { content } from "../Content";
 
 const Hireme = () => {
-  const { Hireme, hero } = content;
+  const { Hireme } = content;
 
   return (
-    <section className="bg-bg_light_primary py-16 relative overflow-hidden">
-      <div className="md:container px-5 relative">
-
-        {/* 🔥 Background + Nom vertical FIXED */}
-        <div className="absolute h-full md:w-3/12 w-6/12 top-0 right-0 ">
-          
-          {/* Background */}
-          <div className="absolute inset-0"></div>
-
-          {/* Nom visible */}
-          <h1 className="rotate-90 absolute left-1/2 top-1/2 -translate-y-1/2 z-10 text-[#EAF2FA] text-3xl md:text-4xl font-bold tracking-widest whitespace-nowrap opacity-30">
-            {hero.firstName}{" "}
-            <span className="text-dark_primary">{hero.LastName}</span>
-          </h1>
-        </div>
+    <section className="bg-bg_light_primary py-12 sm:py-16">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Titles */}
-        <p className="title" data-aos="fade-down">
+        <h2 className="title text-center md:text-left" data-aos="fade-down">
           {Hireme.title}
-        </p>
-
-        <h6 className="subtitle" data-aos="fade-down">
+        </h2>
+        <h4 className="subtitle text-center md:text-left" data-aos="fade-down">
           {Hireme.subtitle}
-        </h6>
+        </h4>
 
         {/* Content */}
-        <div className="mt-10 flex items-center justify-center gap-10 md:flex-row flex-col-reverse">
+        <div className="mt-10 flex flex-col md:flex-row items-center gap-8 bg-dark_primary">
 
           {/* Images */}
-          <div className="flex justify-center" data-aos="fade-right">
+          <div className="flex justify-center w-full md:w-1/2">
+
+            {/* Desktop image */}
             <img
               src={Hireme.image1}
               alt="profile"
-              className="w-[280px] md:w-[350px] hidden md:block object-contain"
+              data-aos="fade-right"
+              className="hidden md:block w-[280px] lg:w-[320px] object-contain"
             />
-            <img
+
+            {/* Mobile image (FIXED 🔥) */}
+            <img 
               src={Hireme.image2}
               alt="profile"
-              className="w-[250px] md:hidden object-contain"
+              data-aos="fade-up"
+              className="block md:hidden w-[50px] aspect-square object-cover rounded-xl mx-auto"
             />
+
           </div>
 
           {/* Card */}
           <div
             data-aos="fade-left"
-            className="border-2 border-dark_primary max-w-xl w-full
-            p-8 shadow-md rounded-2xl rounded-br-[5rem]
-            bg-[#EAF2FA]"
+            className="w-full md:w-1/2 border-2 border-dark_primary
+            p-5 sm:p-6 shadow-md rounded-2xl md:rounded-br-[6rem]
+            bg-white"
           >
-            <p className="leading-8 text-[16px] text-slate-800">
+            <p className="text-sm sm:text-base leading-7 sm:leading-8 text-slate-700 text-center md:text-left">
               {Hireme.para}
             </p>
 
-            <div className="mt-6">
-              <a
-                href="#contact"
-                className="btn bg-dark_primary text-white px-8 py-3 rounded-full hover:scale-105 transition duration-300 inline-block"
-              >
+            <div className="mt-5 text-center md:text-left">
+              <button className="btn bg-dark_primary text-white px-6 py-2.5 sm:px-8 sm:py-3 rounded-full hover:scale-105 transition duration-300">
                 {Hireme.btnText}
-              </a>
+              </button>
             </div>
           </div>
+
         </div>
       </div>
     </section>
