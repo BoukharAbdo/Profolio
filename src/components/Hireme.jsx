@@ -16,25 +16,23 @@ const Hireme = () => {
         </h4>
 
         {/* Content */}
-        <div className="mt-10 flex flex-col md:flex-row items-center gap-8 bg-dark_primary">
+        <div className="mt-10 flex flex-col md:flex-row items-center gap-8">
 
           {/* Images */}
           <div className="flex justify-center w-full md:w-1/2">
 
             {/* Desktop image */}
             <img
-              src={Hireme.image1}
-              alt="profile"
-              data-aos="fade-right"
-              className="hidden md:block w-[280px] lg:w-[320px] object-contain"
+            src={Hireme.image1}
+            alt="..."
+            data-aos="fade-right"
+            className="max-w-sm md:block hidden"
             />
-
-            {/* Mobile image (FIXED 🔥) */}
-            <img 
-              src={Hireme.image2}
-              alt="profile"
+            <img
+              src={Hireme.image1}
               data-aos="fade-up"
-              className="block md:hidden w-[50px] aspect-square object-cover rounded-xl mx-auto"
+              alt="..."
+              className="max-w-sm md:hidden"
             />
 
           </div>
@@ -43,7 +41,7 @@ const Hireme = () => {
           <div
             data-aos="fade-left"
             className="w-full md:w-1/2 border-2 border-dark_primary
-            p-5 sm:p-6 shadow-md rounded-2xl md:rounded-br-[6rem]
+            p-5 sm:p-6 shadow-md rounded-4xl md:rounded-br-[6rem]
             bg-white"
           >
             <p className="text-sm sm:text-base leading-7 sm:leading-8 text-slate-700 text-center md:text-left">
@@ -52,7 +50,9 @@ const Hireme = () => {
 
             <div className="mt-5 text-center md:text-left">
               <button className="btn bg-dark_primary text-white px-6 py-2.5 sm:px-8 sm:py-3 rounded-full hover:scale-105 transition duration-300">
-                {Hireme.btnText}
+                <a href="#contact" className="btn">
+                  {Hireme.btnText}
+                </a>
               </button>
             </div>
           </div>

@@ -87,11 +87,7 @@ export const content = {
     hero_content: [
       {
         count: "1+",
-       text: `Je suis actuellement à la recherche d’un emploi en tant que Chef de Projet IT junior, spécialisé en analyse de données, Business Intelligence et développement web.
-
-Je maîtrise les bases de données (SQL, SQL Server) et l’ERP Sage X3 v12 en tant qu’administrateur. J’interviens également dans l’administration des serveurs (installation, configuration, sauvegarde et restauration), ainsi que dans le déploiement d’applications.
-
-Je dispose également d’une expérience dans les projets BI, incluant la rédaction de cahiers des charges, la définition des KPI métiers et le déploiement de solutions en environnement local.`,
+       text: `Chef de Projet IT junior orienté data, spécialisé en analyse de données, Business Intelligence et développement web. Compétent en SQL, SQL Server et administration Sage X3 v12, avec expérience en gestion de systèmes, déploiement d’applications et réalisation de projets BI (KPI, cahiers des charges, solutions décisionnelles)`,
 },
       {
         count: "20+",
