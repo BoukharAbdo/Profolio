@@ -49,11 +49,12 @@ const Hireme = () => {
             </p>
 
             <div className="mt-5 text-center md:text-left">
-              <button className="btn bg-dark_primary text-white px-6 py-2.5 sm:px-8 sm:py-3 rounded-full hover:scale-105 transition duration-300">
-                <a href="#contact" className="btn">
-                  {Hireme.btnText}
-                </a>
-              </button>
+              <a
+                href="#contact"
+                className="btn inline-block bg-dark_primary text-white px-6 py-2.5 sm:px-8 sm:py-3 rounded-full hover:scale-105 transition duration-300"
+              >
+                {Hireme.btnText}
+              </a>
             </div>
           </div>
 
