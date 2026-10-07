@@ -33,9 +33,16 @@ const Hero = () => {
 
           <br />
 
-          <div className="flex justify-center md:justify-end">
+          <div className="flex flex-wrap gap-3 justify-center md:justify-end">
             <a href="#contact" className="btn">
               {hero.btnText}
+            </a>
+            <a
+              href={hero.cvFile}
+              download
+              className="btn"
+            >
+              {hero.cvText}
             </a>
           </div>
 

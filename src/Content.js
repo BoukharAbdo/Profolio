@@ -77,21 +77,23 @@ export const content = {
     },
   ],
   hero: {
-    title1: "IT Project Manager & ",
-    title2: "Data Analyst &  ",
-    title3: "Full-Stack Developer ",
+    title1: "Data Analyst & ",
+    title2: "Ingénieur BI ",
+    title3: "ERP Sage X3 ",
     firstName: "ABDELMALAK",
     LastName: "BOUKHAR",
     btnText: "Engagez-moi",
+    cvText: "Télécharger mon CV",
+    cvFile: "/CV_Abde_lmalak_Boukhar_BI.pdf",
     image: Hero_person,
     hero_content: [
       {
-        count: "1+",
-       text: `Chef de Projet IT junior orienté data, spécialisé en analyse de données, Business Intelligence et développement web. Compétent en SQL, SQL Server et administration Sage X3 v12, avec expérience en gestion de systèmes, déploiement d’applications et réalisation de projets BI (KPI, cahiers des charges, solutions décisionnelles)`,
+        count: "2+",
+       text: `Chef de Projet IT orienté data, spécialisé en analyse de données, Business Intelligence et développement web. Compétent en SQL, SQL Server et administration Sage X3 v12, avec expérience en gestion de systèmes, déploiement d’applications et réalisation de projets BI (KPI, cahiers des charges, solutions décisionnelles).`,
 },
       {
-        count: "20+",
-        text: "Projets sur lesquels j'ai travaillé dans ma carrière",
+        count: "6",
+        text: "Certifications : SQL, Machine Learning, Java EE, Spring Boot, Angular (OpenClassrooms) et Ark-x Academy",
       },
     ],
   },
@@ -276,7 +278,7 @@ export const content = {
     subtitle: "POUR VOS PROJETS",
     image1: Hero_person,
     
-    para: `En tant que Chef de Projet IT junior, spécialisé en analyse de données et Business Intelligence, je me concentre sur la conception, le développement et le déploiement de solutions informatiques et d’applications web. Mon objectif est de valoriser les données à travers des tableaux de bord pertinents (KPI métiers) et d’optimiser les processus métiers, notamment via l’exploitation des données ERP Sage X3, de la conception jusqu’à la mise en production.`,
+    para: `En tant que Chef de Projet IT, spécialisé en analyse de données et Business Intelligence, je me concentre sur la conception, le développement et le déploiement de solutions informatiques et d’applications web. Mon objectif est de valoriser les données à travers des tableaux de bord pertinents (KPI métiers) et d’optimiser les processus métiers, notamment via l’exploitation des données ERP Sage X3, de la conception jusqu’à la mise en production.`,
     btnText: "Embauchez-moi",
   },
   Contact: {
@@ -294,17 +296,17 @@ export const content = {
         link: "https://wa.link/4b52vn",
       },
       {
-        text: "Abde lmalak ",
+        text: "LinkedIn",
         icon: FaLinkedin,
-        link: "https://www.linkedin.com/in/abde-lmalak-boukhar-5a741b249/",
+        link: "https://www.linkedin.com/in/abde-lmalak-boukhar/",
       },
       {
-        text: "Abde lmalak ",
+        text: "GitHub",
         icon: FaGithub,
         link: "https://github.com/BoukharAbdo",
       },
       {
-        text: "Abde lmalak ",
+        text: "Instagram",
         icon: BsInstagram,
         link: "https://www.instagram.com/abdo_boukhar23?igsh=cXhudHZuYmo3eWV3",
       },
@@ -319,7 +321,7 @@ export const content = {
     {
       name: "LinkedIn",
       icon: FaLinkedin,
-      link: "https://www.linkedin.com/in/abde-lmalak-boukhar-5a741b249/",
+      link: "https://www.linkedin.com/in/abde-lmalak-boukhar/",
     },
     {
       name: "GitHub",
@@ -346,15 +348,16 @@ experience: {
       location: "Marrakech-Safi, Maroc · Sur site",
       logo: experience1,
       desc1:
-        "En tant que Chef de Projet IT chez MedMilk, j’interviens dans la gestion, la coordination et l’optimisation des projets informatiques. Mon expertise en analyse de données, Business Intelligence et systèmes d’information me permet de transformer les données en leviers stratégiques pour améliorer les processus internes et soutenir la prise de décision.",
+        "Pilotage de projets IT et de solutions data-driven pour la production laitière, la collecte du lait et la logistique, afin de renforcer la performance opérationnelle et la fiabilité des flux métiers.",
       desc2:
-        "J’ai contribué à plusieurs projets liés à la production laitière, à la collecte du lait, à la logistique et au reporting métier, en renforçant la performance opérationnelle et la fiabilité des flux métiers.",
+        "Compétences : Power BI, DAX, SQL Server, Sage X3, ETL, Data Warehouse, Angular, Spring Boot.",
       responsibilities: [
-        "Piloter et superviser les projets IT en lien avec les besoins métiers.",
-        "Concevoir et développer des tableaux de bord et rapports décisionnels avec Power BI.",
-        "Administrer et optimiser les bases de données SQL Server et l’ERP Sage X3.",
-        "Assurer le déploiement, le suivi et l’amélioration continue des solutions BI et applications internes.",
-        "Collaborer avec les équipes métiers pour définir les KPI et automatiser le reporting."
+        "Piloter et superviser les projets IT en lien avec les besoins métiers, avec un accent sur l’analyse décisionnelle.",
+        "Concevoir des tableaux de bord et rapports Power BI pour les équipes métiers (production, commercial, RH, amont laitier) et définir les KPI avec elles.",
+        "Concevoir les flux ETL, les environnements Staging et le modèle Data Warehouse.",
+        "Administrer et optimiser les bases de données SQL Server (sécurité, intégrité, performance).",
+        "Assurer la mise en œuvre, l’évolution et le suivi de l’ERP Sage X3 : cohérence des données et optimisation des workflows.",
+        "Collaborer avec les équipes de développement web (Angular, Spring Boot) pour déployer des applications internes."
       ]
     },
 
